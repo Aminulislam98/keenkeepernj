@@ -20,7 +20,7 @@ const Banner = () => {
 
           {/* <!-- RIGHT: live stats panel with current week totals --> */}
           <div className="col-span-12 lg:col-span-4">
-            <div className="border border-[#3a3225] p-6 bg-ink-900 bg-[#1a1713] text-white">
+            <div className="p-6 border border-[#3a3225]  bg-[#1a1713] text-white">
               <div className="flex items-baseline justify-between mb-4">
                 <span className="font-mono text-[10px] tracking-micro uppercase text-[#d4a24c]">
                   This week
@@ -63,10 +63,10 @@ const Banner = () => {
 
               {/* <!-- Quote nudge from most overdue --> */}
               <p className="font-serif italic text-[13px] text-[#f3ead9] leading-relaxed">
-                "You haven't spoken to
+                You have not spoken to {""}
                 <span className="not-italic text-[#e8c170]">Hana</span> in 60
-                days. She usually responds quickest early UK mornings — that's
-                her evening in Tokyo."
+                days. She usually responds quickest early UK mornings that's her
+                evening in Tokyo.
               </p>
             </div>
           </div>
