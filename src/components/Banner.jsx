@@ -7,12 +7,12 @@ const Banner = () => {
         <div className="grid grid-cols-12 gap-8 items-end">
           {/* <!-- LEFT: Issue no + date + headline + subheading --> */}
           <div className="col-span-12 lg:col-span-8">
-            <h1 className="text-[72px] md:text-[108px] leading-16 sm:leading-30 tracking-[-0.03em] text-[#f3ead9]">
-              Friends to <em className="italic text-[#d4a24c]">keep</em>
+            <h1 className="font-serif text-[72px] md:text-[108px] leading-16 sm:leading-30 tracking-[-0.03em] text-cream font-light">
+              Friends to <em className="italic text-gold">keep</em>
               <br />
               close in your life.
             </h1>
-            <p className="font-serif italic text-[#f3ead9] text-[19px] mt-8 max-w-[46ch] leading-relaxed">
+            <p className="font-serif italic text-cream text-[19px] mt-8 max-w-[46ch] leading-relaxed">
               Your personal shelf of meaningful connections. Browse, tend, and
               nurture the relationships that matter most.
             </p>
@@ -20,9 +20,9 @@ const Banner = () => {
 
           {/* <!-- RIGHT: live stats panel with current week totals --> */}
           <div className="col-span-12 lg:col-span-4">
-            <div className="p-6 border border-[#3a3225]  bg-[#1a1713] text-white">
+            <div className="p-6 border border-line  bg-ink-900 text-white">
               <div className="flex items-baseline justify-between mb-4">
-                <span className="font-mono text-[10px] tracking-micro uppercase text-[#d4a24c]">
+                <span className="font-mono text-[10px] tracking-micro uppercase text-gold">
                   Quick Stats
                 </span>
               </div>
@@ -30,13 +30,13 @@ const Banner = () => {
                 <div className="flex flex-col gap-4">
                   <div className="flex flex-col justify-center items-center">
                     <div className="font-serif text-4xl">23</div>
-                    <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
+                    <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       Total Friends
                     </div>
                   </div>
                   <div className="flex flex-col justify-center items-center">
                     <div className="font-serif text-4xl">148</div>
-                    <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
+                    <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       Need Attention
                     </div>
                   </div>
@@ -44,14 +44,14 @@ const Banner = () => {
                 <div className="flex flex-col gap-4">
                   <div className="flex flex-col justify-center items-center">
                     <div className="font-serif text-4xl">07</div>
-                    <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
+                    <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       On Track
                     </div>
                   </div>
                   <div className="flex flex-col justify-center items-center">
                     {/* <!-- This count = profiles where status === 'overdue' in your data (6 of 20) --> */}
-                    <div className="font-serif text-4xl text-[#c97b63]">06</div>
-                    <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
+                    <div className="font-serif text-4xl text-rose">06</div>
+                    <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       Interactions This Month
                     </div>
                   </div>
@@ -59,12 +59,12 @@ const Banner = () => {
               </div>
 
               {/* <!-- Dotted rule using tailwind gradient --> */}
-              <div className="text-[#e8c170] my-5 h-0.5 bg-[linear-gradient(to_right,#3a3225_1px,transparent_1px)] bg-size-[8px_1px]"></div>
+              <div className="text-gold-light my-5 h-0.5 bg-[linear-gradient(to_right,#3a3225_1px,transparent_1px)] bg-size-[8px_1px]"></div>
 
               {/* <!-- Quote nudge from most overdue --> */}
-              <p className="font-serif italic text-[13px] text-[#f3ead9] leading-relaxed">
+              <p className="font-serif italic text-[13px] text-cream leading-relaxed">
                 You have not spoken to {""}
-                <span className="not-italic text-[#e8c170]">Hana</span> in 60
+                <span className="not-italic text-gold-light">Hana</span> in 60
                 days. She usually responds quickest early UK mornings that's her
                 evening in Tokyo.
               </p>

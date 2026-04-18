@@ -1,2 +1,50 @@
+/* @import "tailwindcss";
+@plugin "daisyui"; */
+/* app/globals.css */
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: false;
+}
+
+@theme {
+  --font-sans: var(--font-inter-tight), system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), "Times New Roman", serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --color-ink-950: #13110e;
+  --color-ink-900: #1a1713;
+  --color-ink-800: #221d18;
+
+  --color-cream: #f3ead9;
+  --color-cream-muted: #c9bfa8;
+  --color-cream-dim: #8a806d;
+
+  --color-line: #2b251d;
+  --color-line-strong: #3a3225;
+
+  --color-gold: #d4a24c;
+  --color-gold-light: #e8c170;
+
+  --color-rose: #c97b63;
+  --color-sage: #7a8a6b;
+  --color-wine: #8b4a4a;
+
+  --tracking-micro: 0.22em;
+  --tracking-tiny: 0.16em;
+
+  --animate-ticker: ticker 45s linear infinite;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+::selection {
+  background: #d4a24c;
+  color: #13110e;
+}

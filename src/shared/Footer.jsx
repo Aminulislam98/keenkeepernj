@@ -3,21 +3,21 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <section className="border-t border-line bg-ink-900 py-20 bg-[#1a1713] text-white border-y border-[#3a3225]">
-        <div className="max-w-[900px] mx-auto px-8 text-center">
+      <section className="border-t py-20 bg-ink-900 text-white border-y border-line">
+        <div className="max-w-225 mx-auto px-8 text-center">
           <div className="font-mono text-[10px] tracking-micro uppercase text-cream-dim">
             Made with care by Aminul Islam
           </div>
-          <p className="font-serif text-3xl md:text-[40px] leading-tight mt-6 text-[#f3ead9]">
+          <p className="font-serif text-3xl md:text-[40px] leading-tight mt-6 text-cream font-light">
             The best software is the kind your{" "}
-            <span className="text-[#d4a24c]"> grandmother </span> notices
+            <span className="text-gold"> grandmother </span> notices
             <em className="italic text-gold-light">only</em> because she hears
             from you more often.
           </p>
         </div>
       </section>
 
-      <footer className="relative z-10 border-t bg-[#1a1713]">
+      <footer className="relative z-10 border-t border-line bg-ink-900">
         <div className="max-w-7xl mx-auto px-8 py-16">
           <div className="flex flex-col gap-5 md:flex-row md:justify-between">
             <div className="">
@@ -117,7 +117,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-mono text-[11px] tracking-tiny uppercase  text-[#8a806d] mt-10 ">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-mono text-[11px] tracking-tiny uppercase  text-cream-dim mt-10 ">
             <div>© 2026 KeenKeeper. All rights reserved. .</div>
             <div className="flex items-center gap-6 justify-center">
               <span>Privacy</span>
