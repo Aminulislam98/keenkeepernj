@@ -89,4 +89,4 @@ This is a learning project. Core features are working. Backend/auth and real dat
 
 ## Author
 
-Built by [Aminul Islam](https://github.com/yourusername) while learning Next.js and modern React patterns.
+Built by [Aminul Islam](https://github.com/Aminulislam98) while learning Next.js and modern React patterns.
