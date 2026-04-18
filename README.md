@@ -1,6 +1,6 @@
 # KeenKeeper — The Relationship Almanac
 
-A personal relationship tracker built for people, not pipelines. KeenKeeper helps you stay connected with the people who matter most — with a timeline of interactions, contact health tracking, and simple analytics.
+A personal relationship tracker built for people, not pipelines. KeenKeeper helps you stay connected with the people who matter most with a timeline of interactions, contact health tracking, and simple analytics.
 
 ---
 
