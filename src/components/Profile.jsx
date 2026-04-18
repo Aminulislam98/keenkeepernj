@@ -12,7 +12,7 @@ const Profile = async () => {
   console.log(profiles, "where Iam calling from ");
 
   return (
-    <section className="max-w-full w-full mx-auto px-8 py-16">
+    <section className="max-w-full w-full mx-auto px-4 py-8 md:py-16">
       {/* Section heading */}
       <div className="flex items-end justify-between mb-10 max-w-7xl mx-auto">
         <div>

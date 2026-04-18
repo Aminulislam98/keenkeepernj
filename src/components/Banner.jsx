@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <section className="relative border-b border-line bg-[#0D0B09]">
-      <div className="relative max-w-7xl mx-auto px-8 pt-20 pb-24">
+      <div className="relative max-w-7xl mx-auto px-4  md:py-20 py-10">
         <div className="grid grid-cols-12 gap-8 items-end">
           {/* <!-- LEFT: Issue no + date + headline + subheading --> */}
           <div className="col-span-12 lg:col-span-8">
@@ -29,13 +29,13 @@ const Banner = () => {
               <div className="flex items-center justify-between">
                 <div className="flex flex-col gap-4">
                   <div className="flex flex-col justify-center items-center">
-                    <div className="font-serif text-4xl">23</div>
+                    <div className="font-serif text-4xl">10</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       Total Friends
                     </div>
                   </div>
                   <div className="flex flex-col justify-center items-center">
-                    <div className="font-serif text-4xl">148</div>
+                    <div className="font-serif text-4xl">6</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       Need Attention
                     </div>
@@ -43,14 +43,14 @@ const Banner = () => {
                 </div>
                 <div className="flex flex-col gap-4">
                   <div className="flex flex-col justify-center items-center">
-                    <div className="font-serif text-4xl">07</div>
+                    <div className="font-serif text-4xl">3</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       On Track
                     </div>
                   </div>
                   <div className="flex flex-col justify-center items-center">
                     {/* <!-- This count = profiles where status === 'overdue' in your data (6 of 20) --> */}
-                    <div className="font-serif text-4xl text-rose">06</div>
+                    <div className="font-serif text-4xl text-rose">12</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-cream-dim mt-1">
                       Interactions This Month
                     </div>

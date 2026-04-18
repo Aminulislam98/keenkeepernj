@@ -11,7 +11,7 @@ const TimelineCard = ({ history }) => {
     Text: <RiMessage2Fill className="w-9 h-9 md:w-12 md:h-12" />,
   };
   return (
-    <div className=" bg-ink-800 flex flex-row justify-between gap-1 max-w-full w-full border border-line-strong p-3 md:p-4 rounded-xl md:hover:scale-101 transition-transform duration-200 cursor-pointer">
+    <div className=" bg-ink-800 flex flex-row justify-between gap-1 max-w-full w-full border border-line-strong p-3 md:p-4 rounded-xl md:hover:scale-101 transition-transform duration-200">
       <div className="flex flex-row justify-start items-center gap-2 md:gap-3">
         <div>{conversationsType[title]}</div>
         {/* details */}

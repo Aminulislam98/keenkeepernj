@@ -84,8 +84,8 @@ const ProfileDetails = async ({ params }) => {
   };
 
   return (
-    <main className="relative z-10 py-10">
-      <div className="flex items-center gap-3 font-mono text-[11px] tracking-tiny uppercase text-cream-dim mb-10 max-w-7xl mx-auto">
+    <main className="relative z-10 py-5 md:py-10 px-4">
+      <div className="flex items-center gap-3 font-mono text-[11px] tracking-tiny uppercase text-cream-dim mb-5 md:mb-10 max-w-7xl mx-auto px-2">
         <GoBack></GoBack>
         {navigation.map((item) => (
           <Link
