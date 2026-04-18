@@ -1,16 +1,8 @@
 import ProfileCard from "@/utilities/ProfileCard";
 import React from "react";
-
-const profilesPromise = async () => {
-  const res = await fetch("http://localhost:3000/profileData.json");
-  const data = await res.json();
-  return data;
-};
+import profiles from "../../public/profileData.json";
 
 const Profile = async () => {
-  const profiles = await profilesPromise();
-  console.log(profiles, "where Iam calling from ");
-
   return (
     <section className="max-w-full w-full mx-auto px-4 py-8 md:py-16">
       {/* Section heading */}
