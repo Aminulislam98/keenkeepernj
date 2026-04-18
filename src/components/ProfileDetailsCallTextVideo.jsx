@@ -111,10 +111,10 @@ const ProfileDetailsCallTextVideo = ({ newId, name }) => {
       </button>
       <button
         href={"#"}
-        className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition"
+        className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition cursor-not-allowed"
       >
         <Mail></Mail>
-        <span className="font-mono text-[9px] tracking-tiny uppercase">
+        <span className="font-mono text-[9px] tracking-tiny uppercase ">
           Mail
         </span>
       </button>
