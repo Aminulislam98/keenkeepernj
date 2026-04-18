@@ -66,23 +66,24 @@ const Footer = () => {
               </div>
               <ul className="space-y-3 font-serif text-[15px]  text-[#f3ead9]">
                 <li>
-                  <Link href={""} className="hover:text-gold-light transition">
-                    Roster
+                  <Link href={"/"} className="hover:text-gold-light transition">
+                    Home
                   </Link>
                 </li>
                 <li>
-                  <Link href={""} className="hover:text-gold-light transition">
-                    Dossier
+                  <Link
+                    href={"/timeline"}
+                    className="hover:text-gold-light transition"
+                  >
+                    Timeline
                   </Link>
                 </li>
                 <li>
-                  <Link href={""} className="hover:text-gold-light transition">
-                    Chronicle
-                  </Link>
-                </li>
-                <li>
-                  <Link href={""} className="hover:text-gold-light transition">
-                    Ledger
+                  <Link
+                    href={"/stats"}
+                    className="hover:text-gold-light transition"
+                  >
+                    Stats
                   </Link>
                 </li>
               </ul>

@@ -9,7 +9,11 @@
     "tags": ["college", "close friend"],
     "bio": "Met in first year uni. We used to pull all-nighters before exams. Now he's a software engineer in Manchester.",
     "goal": 14,
-    "next_due_date": "2025-07-10"
+    "next_due_date": "2025-07-10",
+    "phone": "+4477488772354",
+    "born": "1998-03-12",
+    "home": "London",
+    "works": "Software Engineer"
   },
   {
     "id": 2,
@@ -21,7 +25,11 @@
     "tags": ["work", "mentor"],
     "bio": "My old team lead at the care agency. Taught me how to handle difficult clients with patience and empathy.",
     "goal": 10,
-    "next_due_date": "2025-07-25"
+    "next_due_date": "2025-07-25",
+    "phone": "+44774887723523",
+    "born": "1992-07-08",
+    "home": "Birmingham",
+    "works": "Care Manager"
   },
   {
     "id": 3,
@@ -33,7 +41,11 @@
     "tags": ["childhood", "football"],
     "bio": "Grew up on the same street in Croydon. Still meet up for Sunday league football whenever we can.",
     "goal": 14,
-    "next_due_date": "2025-07-15"
+    "next_due_date": "2025-07-15",
+    "phone": "+4477488772343",
+    "born": "1997-11-21",
+    "home": "Croydon",
+    "works": "Fitness Coach"
   },
   {
     "id": 4,
@@ -45,7 +57,11 @@
     "tags": ["family friend", "community"],
     "bio": "Our families have known each other for over 20 years. She runs a small bakery in Sutton and makes the best samosas.",
     "goal": 21,
-    "next_due_date": "2025-07-05"
+    "next_due_date": "2025-07-05",
+    "phone": "+4477488772323",
+    "born": "1989-05-14",
+    "home": "Sutton",
+    "works": "Bakery Owner"
   },
   {
     "id": 5,
@@ -57,7 +73,11 @@
     "tags": ["coding", "online friend"],
     "bio": "Met on a React Discord server. We review each other's GitHub projects and do weekly pair programming sessions.",
     "goal": 7,
-    "next_due_date": "2025-07-18"
+    "next_due_date": "2025-07-18",
+    "phone": "+44774887723234",
+    "born": "1999-01-30",
+    "home": "Leeds",
+    "works": "Frontend Developer"
   },
   {
     "id": 6,
@@ -69,7 +89,11 @@
     "tags": ["college", "study group"],
     "bio": "We were in the same study group during college. Now she's doing her Masters in Birmingham. Incredibly driven.",
     "goal": 14,
-    "next_due_date": "2025-07-22"
+    "next_due_date": "2025-07-22",
+    "phone": "+4477488772376",
+    "born": "1996-09-18",
+    "home": "Birmingham",
+    "works": "Graduate Student"
   },
   {
     "id": 7,
@@ -81,7 +105,11 @@
     "tags": ["close friend", "travel"],
     "bio": "Backpacked through Europe together after college. We keep saying we'll do another trip but life always gets in the way.",
     "goal": 30,
-    "next_due_date": "2025-07-01"
+    "next_due_date": "2025-07-01",
+    "phone": "+4477488772398",
+    "born": "1995-04-22",
+    "home": "Liverpool",
+    "works": "Photographer"
   },
   {
     "id": 8,
@@ -93,7 +121,11 @@
     "tags": ["work", "close friend"],
     "bio": "Fellow care worker at the same agency. We cover shifts for each other and always debrief after tough days.",
     "goal": 10,
-    "next_due_date": "2025-07-20"
+    "next_due_date": "2025-07-20",
+    "phone": "+4477488772387",
+    "born": "1993-12-05",
+    "home": "London",
+    "works": "Care Worker"
   },
   {
     "id": 9,
@@ -105,7 +137,11 @@
     "tags": ["mosque", "community"],
     "bio": "We met at the local mosque and bonded over a shared love of cricket. He coaches the youth team on weekends.",
     "goal": 14,
-    "next_due_date": "2025-07-08"
+    "next_due_date": "2025-07-08",
+    "phone": "+44774887723232",
+    "born": "1994-06-10",
+    "home": "London",
+    "works": "Youth Coach"
   },
   {
     "id": 10,
@@ -117,7 +153,11 @@
     "tags": ["neighbour", "close friend"],
     "bio": "Lived next door for 3 years. She's a graphic designer and always gives me honest feedback on my design work.",
     "goal": 14,
-    "next_due_date": "2025-07-16"
+    "next_due_date": "2025-07-16",
+    "phone": "+4477488772354",
+    "born": "1997-08-27",
+    "home": "London",
+    "works": "Graphic Designer"
   },
   {
     "id": 11,
@@ -129,7 +169,11 @@
     "tags": ["gym", "fitness"],
     "bio": "Gym partner for two years. He got me into strength training and we hold each other accountable on rest days.",
     "goal": 10,
-    "next_due_date": "2025-07-21"
+    "next_due_date": "2025-07-21",
+    "phone": "+4477488772311",
+    "born": "1996-02-14",
+    "home": "Manchester",
+    "works": "Personal Trainer"
   },
   {
     "id": 12,
@@ -141,7 +185,11 @@
     "tags": ["college", "close friend"],
     "bio": "One of my closest friends from college. She moved to Leicester last year and we've been bad at keeping in touch since.",
     "goal": 21,
-    "next_due_date": "2025-07-03"
+    "next_due_date": "2025-07-03",
+    "phone": "+44774887723522",
+    "born": "1998-10-09",
+    "home": "Leicester",
+    "works": "Accountant"
   },
   {
     "id": 13,
@@ -153,7 +201,11 @@
     "tags": ["music", "childhood"],
     "bio": "We started a garage band together at 16. We never made it big but still jam on his rooftop whenever I visit Brixton.",
     "goal": 7,
-    "next_due_date": "2025-07-17"
+    "next_due_date": "2025-07-17",
+    "phone": "+4477488772354",
+    "born": "1995-03-03",
+    "home": "London",
+    "works": "Musician"
   },
   {
     "id": 14,
@@ -165,7 +217,11 @@
     "tags": ["online friend", "design"],
     "bio": "Connected through a UI design challenge online. She's based in Tokyo and we critique each other's design portfolios.",
     "goal": 30,
-    "next_due_date": "2025-06-28"
+    "next_due_date": "2025-06-28",
+    "phone": "+4477488772354",
+    "born": "1994-12-19",
+    "home": "Tokyo",
+    "works": "UI Designer"
   },
   {
     "id": 15,
@@ -177,7 +233,11 @@
     "tags": ["work", "football"],
     "bio": "We started at the care agency at the same time. Outside work he's obsessed with Arsenal and drags me to watch matches.",
     "goal": 14,
-    "next_due_date": "2025-07-14"
+    "next_due_date": "2025-07-14",
+    "phone": "+4477488772354",
+    "born": "1996-07-11",
+    "home": "London",
+    "works": "Care Worker"
   },
   {
     "id": 16,
@@ -189,7 +249,11 @@
     "tags": ["close friend", "cooking"],
     "bio": "Met at a community cooking class. She taught me how to make proper Italian pasta and now we swap recipes every week.",
     "goal": 7,
-    "next_due_date": "2025-07-19"
+    "next_due_date": "2025-07-19",
+    "phone": "+4477488772354",
+    "born": "1999-05-25",
+    "home": "London",
+    "works": "Chef"
   },
   {
     "id": 17,
@@ -201,7 +265,11 @@
     "tags": ["family friend", "close friend"],
     "bio": "Our dads were friends before us. He's like a brother. He moved to Canada two years ago and the time zone kills us.",
     "goal": 21,
-    "next_due_date": "2025-07-02"
+    "next_due_date": "2025-07-02",
+    "phone": "+4477488772354",
+    "born": "1995-09-09",
+    "home": "Toronto",
+    "works": "Construction Manager"
   },
   {
     "id": 18,
@@ -213,7 +281,11 @@
     "tags": ["book club", "neighbour"],
     "bio": "We joined the same local book club two years ago. She recommends the best Scottish crime novels and always has strong opinions.",
     "goal": 14,
-    "next_due_date": "2025-07-15"
+    "next_due_date": "2025-07-15",
+    "phone": "+4477488772354",
+    "born": "1993-01-17",
+    "home": "Edinburgh",
+    "works": "Librarian"
   },
   {
     "id": 19,
@@ -225,7 +297,11 @@
     "tags": ["coding", "college"],
     "bio": "We both self-taught our way into tech from completely different backgrounds. We share resources and cheer each other on.",
     "goal": 10,
-    "next_due_date": "2025-07-23"
+    "next_due_date": "2025-07-23",
+    "phone": "+4477488772354",
+    "born": "1998-06-28",
+    "home": "London",
+    "works": "Backend Developer"
   },
   {
     "id": 20,
@@ -237,6 +313,10 @@
     "tags": ["community", "mentor"],
     "bio": "She mentored me when I first moved to London and didn't know anyone. I wouldn't be where I am without her guidance.",
     "goal": 14,
-    "next_due_date": "2025-07-09"
+    "next_due_date": "2025-07-09",
+    "phone": "+4477488772354",
+    "born": "1990-02-02",
+    "home": "London",
+    "works": "Community Leader"
   }
 ]

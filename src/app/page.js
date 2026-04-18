@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import BannerStatusbar from "@/components/BannerStatusbar";
 import Profile from "@/components/Profile";
+import { Suspense } from "react";
 export const metadata = {
   title: "Home - KeenKeeper",
   description:

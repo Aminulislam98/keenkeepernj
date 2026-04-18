@@ -59,7 +59,7 @@ const ProfileCard = ({ profile }) => {
   };
   return (
     <Link
-      href=""
+      href={`/profiles/${id}`}
       className="group bg-ink-800 border border-line hover:border-line-strong transition rounded-sm p-6 cursor-pointer"
     >
       <div className="flex justify-between items-start mb-5">
