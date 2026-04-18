@@ -3,9 +3,20 @@ import React from "react";
 import { HiPlus } from "react-icons/hi";
 
 const Navbar = () => {
+  const navLinks = [
+    {
+      path: "/",
+      name: "Home",
+    },
+    {
+      path: "/timeline",
+      name: "Timeline",
+    },
+    { path: "/stats", name: "Stats" },
+  ];
   return (
-    <header className="relative z-10 border-b border-[#3a3225] bg-[#13110e]">
-      <div className="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between bg-[#13110e] text-[#f3ead9]">
+    <header className="relative z-10 border-b border-line-strong bg-ink-950">
+      <div className="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between bg-ink-950 text-cream">
         {/* <!-- Logo + wordmark --> */}
         <Link href="/" className="flex items-center gap-3">
           <svg width="30" height="30" viewBox="0 0 40 40" fill="none">
@@ -25,8 +36,8 @@ const Navbar = () => {
               strokeLinecap="square"
             />
           </svg>
-          <div className="leading-none text-[#c9bfa8]">
-            <div className="font-serif text-[22px] font-medium text-[#f3ead9]">
+          <div className="leading-none text-cream-muted">
+            <div className="font-serif text-[22px] font-medium text-cream">
               KeenKeeper
             </div>
             <div className="font-mono text-[9px] tracking-micro uppercase text-cream-dim mt-1">
@@ -59,7 +70,7 @@ const Navbar = () => {
 
         {/* <!-- Right: search + add button --> */}
         <div className="flex items-center gap-3">
-          <button className="bg-[#f3ead9] text-black hover:bg-[#e8c170] font-mono text-[11px] tracking-tiny uppercase px-4 py-2 rounded-sm flex items-center gap-2 transition hover:-translate-y-px">
+          <button className="bg-cream text-black hover:bg-gold font-mono text-[11px] tracking-tiny uppercase px-4 py-2 rounded-sm flex items-center gap-2 transition hover:-translate-y-px">
             <HiPlus /> Add Friends
           </button>
         </div>
