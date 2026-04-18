@@ -4,6 +4,12 @@ import { Legend, Pie, PieChart, Tooltip } from "recharts";
 import { dataContext } from "../../context/AllDataProvider";
 import Link from "next/link";
 
+const metadata = {
+  title: "Stats - KeenKeeper",
+  description:
+    "View your friendship analytics and track your interactions with the people who matter most.",
+};
+
 const StatsPage = () => {
   const { callHistory } = useContext(dataContext);
   const totalCall = callHistory.reduce((count, item) => {
