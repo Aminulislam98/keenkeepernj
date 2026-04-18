@@ -2,6 +2,7 @@ import ProfileCard from "@/utilities/ProfileCard";
 import React from "react";
 
 const profilesPromise = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
   const res = await fetch("http://localhost:3000/profileData.json");
   const data = await res.json();
   return data;
