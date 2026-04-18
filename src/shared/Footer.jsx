@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="font-mono text-[10px] tracking-micro uppercase text-cream-dim">
             Made with care by Aminul Islam
           </div>
-          <p className="font-serif text-3xl md:text-[40px] leading-[1.25] mt-6 font-light">
+          <p className="font-serif text-3xl md:text-[40px] leading-tight mt-6 text-[#f3ead9]">
             The best software is the kind your{" "}
             <span className="text-[#d4a24c]"> grandmother </span> notices
             <em className="italic text-gold-light">only</em> because she hears
@@ -19,8 +19,8 @@ const Footer = () => {
 
       <footer className="relative z-10 border-t bg-[#1a1713]">
         <div className="max-w-7xl mx-auto px-8 py-16">
-          <div className="grid grid-cols-12 gap-8">
-            <div className="col-span-12 md:col-span-5">
+          <div className="flex flex-col gap-5 md:flex-row md:justify-between">
+            <div className="">
               <div className="flex items-center gap-3 mb-6">
                 <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
                   <rect
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-span-6 md:col-span-2">
+            <div className="">
               <div className="font-mono text-[10px] tracking-micro uppercase text-[#8a806d] mb-5">
                 Sections
               </div>
@@ -88,7 +88,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-span-6 md:col-span-2">
+            <div className="">
               <div className="font-mono text-[10px] tracking-micro uppercase text-cream-dim mb-5 text-[#8a806d]">
                 Studio
               </div>
@@ -115,23 +115,9 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-
-            <div className="col-span-12 md:col-span-3">
-              <div className="font-mono text-[10px] tracking-micro uppercase text-cream-dim mb-5 text-[#8a806d]">
-                Colophon
-              </div>
-              <ul className="space-y-2 font-mono text-[12px] text-cream-muted text-[#f3ead9]">
-                <li>Set in Fraunces & JetBrains Mono</li>
-                <li>Coloured in antique gold & cream</li>
-                <li>Made on a MacBook in SM6</li>
-                <li>Deployed via the small hours</li>
-              </ul>
-            </div>
           </div>
 
-          <div className="my-10 h-px bg-[linear-gradient(to_right,#3a3225_1px,transparent_1px)] [background-size:8px_1px]"></div>
-
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-mono text-[11px] tracking-tiny uppercase text-cream-dim text-[#8a806d]">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-mono text-[11px] tracking-tiny uppercase  text-[#8a806d] mt-10 ">
             <div>© 2026 KeenKeeper. All rights reserved. .</div>
             <div className="flex items-center gap-6 justify-center">
               <span>Privacy</span>

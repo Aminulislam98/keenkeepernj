@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="grid grid-cols-12 gap-8 items-end">
           {/* <!-- LEFT: Issue no + date + headline + subheading --> */}
           <div className="col-span-12 lg:col-span-8">
-            <h1 className="font-serif text-[72px] md:text-[108px] leading-16 sm:leading-30 tracking-[-0.03em] text-white">
+            <h1 className="text-[72px] md:text-[108px] leading-16 sm:leading-30 tracking-[-0.03em] text-[#f3ead9]">
               Friends to <em className="italic text-[#d4a24c]">keep</em>
               <br />
               close in your life.
