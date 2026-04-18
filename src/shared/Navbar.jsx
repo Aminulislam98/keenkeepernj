@@ -1,3 +1,4 @@
+import Navlinks from "@/utilities/Navlinks";
 import Link from "next/link";
 import React from "react";
 import { HiPlus } from "react-icons/hi";
@@ -5,14 +6,16 @@ import { HiPlus } from "react-icons/hi";
 const Navbar = () => {
   const navLinks = [
     {
+      id: 1,
       path: "/",
       name: "Home",
     },
     {
+      id: 2,
       path: "/timeline",
       name: "Timeline",
     },
-    { path: "/stats", name: "Stats" },
+    { id: 3, path: "/stats", name: "Stats" },
   ];
   return (
     <header className="relative z-10 border-b border-line-strong bg-ink-950">
@@ -48,7 +51,7 @@ const Navbar = () => {
 
         {/* <!-- Center nav links --> */}
         <nav className="hidden md:flex items-center gap-10 font-mono text-[12px] tracking-tiny uppercase">
-          <Link
+          {/* <Link
             href=""
             className="relative text-cream after:absolute after:-bottom-2 after:left-0 after:right-0 after:h-px after:bg-gold"
           >
@@ -65,7 +68,12 @@ const Navbar = () => {
             className="text-cream-muted hover:text-cream transition"
           >
             Stats
-          </Link>
+          </Link> */}
+          {navLinks.map((link) => (
+            <Navlinks key={link.id} path={link.path}>
+              {link.name}
+            </Navlinks>
+          ))}
         </nav>
 
         {/* <!-- Right: search + add button --> */}
