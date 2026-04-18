@@ -1,8 +1,10 @@
+import ProfileDetailsCallTextVideo from "@/components/ProfileDetailsCallTextVideo";
+import ContactActionSkeleton from "@/LoadingComponent/ContactActionSkeleton";
 import GoBack from "@/utilities/GoBack";
 import { Mail, MessagesSquare, Phone, PhoneCall, Video } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { Suspense } from "react";
 import { MdOutlineAddIcCall } from "react-icons/md";
 const profilesDetailsPromise = async () => {
   const res = await fetch("http://localhost:3000/profileData.json");
@@ -79,6 +81,7 @@ const ProfileDetails = async ({ params }) => {
     // Digital — teal (online, distant)
     "online friend": "bg-teal-500/10 text-teal-400 border border-teal-500/30",
   };
+    
 
   return (
     <main className="relative z-10 py-10">
@@ -117,32 +120,9 @@ const ProfileDetails = async ({ params }) => {
           </div>
 
           {/* Quick action buttons — Call / Text / Video / Mail */}
-          <div className="grid grid-cols-4 gap-2 mt-4">
-            <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
-              <span className="font-mono text-[9px] tracking-tiny uppercase flex flex-col gap-1">
-                <PhoneCall></PhoneCall>
-                Call
-              </span>
-            </button>
-            <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
-              <MessagesSquare></MessagesSquare>
-              <span className="font-mono text-[9px] tracking-tiny uppercase">
-                Text
-              </span>
-            </button>
-            <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
-              <Video></Video>
-              <span className="font-mono text-[9px] tracking-tiny uppercase">
-                Video
-              </span>
-            </button>
-            <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
-              <Mail></Mail>
-              <span className="font-mono text-[9px] tracking-tiny uppercase">
-                Mail
-              </span>
-            </button>
-          </div>
+          <Suspense fallback={<ContactActionSkeleton></ContactActionSkeleton>}>
+            <ProfileDetailsCallTextVideo></ProfileDetailsCallTextVideo>
+          </Suspense>
         </div>
 
         {/* <!-- RIGHT: identity — name, bio, KPIs, facts, rules --> */}
