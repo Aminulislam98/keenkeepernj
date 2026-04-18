@@ -2,7 +2,7 @@ import React from "react";
 
 const BannerStatusbar = () => {
   return (
-    <section className="border-b border-line max-w-full w-full mx-auto border-y border-[#3a3225]  bg-[#1a1713]">
+    <section className="border-b max-w-full w-full mx-auto border-y border-line  bg-ink-900">
       <div className="max-w-7xl w-full mx-auto px-8 py-4 flex items-center gap-3 flex-row justify-center bg-[#1a1713] flex-wrap">
         {/* <!-- Active pill (gold accent) --> */}
         <button className="inline-flex items-center gap-1.5 px-3 py-1 border border-[#d4a24c] text-[#d4a24c] rounded-full text-[11px] tracking-[0.08em] uppercase whitespace-nowrap">

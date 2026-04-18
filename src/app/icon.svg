@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="256" height="256">
+  <!-- Background: warm charcoal, matches bg-ink-950 -->
+  <rect width="40" height="40" rx="6" fill="#13110e"/>
+  
+  <!-- Outer hairline border in cream -->
+  <rect x="1.5" y="1.5" width="37" height="37" rx="4.5" fill="none" stroke="#f3ead9" stroke-width="1" opacity="0.9"/>
+  
+  <!-- The K monogram in antique gold -->
+  <g stroke="#d4a24c" stroke-width="2.2" stroke-linecap="square" fill="none">
+    <!-- Vertical stroke of K -->
+    <path d="M13 10 L13 30"/>
+    <!-- Upper diagonal -->
+    <path d="M13 20 L23 10"/>
+    <!-- Lower diagonal -->
+    <path d="M13 20 L23 30"/>
+  </g>
+  
+  <!-- Three small horizontal marks (the "ledger lines") -->
+  <g stroke="#d4a24c" stroke-width="1.6" stroke-linecap="square">
+    <line x1="27" y1="14" x2="31" y2="14"/>
+    <line x1="27" y1="22" x2="31" y2="22"/>
+    <line x1="27" y1="30" x2="31" y2="30"/>
+  </g>
+</svg>
