@@ -2,7 +2,6 @@ import Banner from "@/components/Banner";
 import BannerStatusbar from "@/components/BannerStatusbar";
 import BookCardSkeleton from "@/components/BookCardSkeleton";
 import Profile from "@/components/Profile";
-import { h1 } from "motion/react-client";
 import { Suspense } from "react";
 export const metadata = {
   title: "Home - KeenKeeper",
