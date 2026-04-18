@@ -6,15 +6,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { Suspense } from "react";
 import { MdOutlineAddIcCall } from "react-icons/md";
-const profilesDetailsPromise = async () => {
-  const res = await fetch("http://localhost:3000/profileData.json");
-  const data = await res.json();
-  return data;
-};
+// const profilesDetailsPromise = async () => {
+//   const res = await fetch("http://localhost:3000/profileData.json");
+//   const data = await res.json();
+//   return data;
+// };
+import profileData from "../../../../public/profileData.json";
 
 const ProfileDetails = async ({ params }) => {
   const { id } = await params;
-  const profileData = await profilesDetailsPromise();
+  // const profileData = await profilesDetailsPromise();
   const matchedProfile = profileData.find(
     (profile) => profile.id === Number(id),
   );
