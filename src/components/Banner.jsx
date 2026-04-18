@@ -23,43 +23,43 @@ const Banner = () => {
             <div className="p-6 border border-[#3a3225]  bg-[#1a1713] text-white">
               <div className="flex items-baseline justify-between mb-4">
                 <span className="font-mono text-[10px] tracking-micro uppercase text-[#d4a24c]">
-                  This week
+                  Quick Stats
                 </span>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex flex-col gap-4">
-                  <div>
+                  <div className="flex flex-col justify-center items-center">
                     <div className="font-serif text-4xl">23</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
-                      calls
+                      Total Friends
                     </div>
                   </div>
-                  <div>
+                  <div className="flex flex-col justify-center items-center">
                     <div className="font-serif text-4xl">148</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
-                      messages
+                      Need Attention
                     </div>
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <div>
+                  <div className="flex flex-col justify-center items-center">
                     <div className="font-serif text-4xl">07</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
-                      video
+                      On Track
                     </div>
                   </div>
-                  <div>
+                  <div className="flex flex-col justify-center items-center">
                     {/* <!-- This count = profiles where status === 'overdue' in your data (6 of 20) --> */}
-                    <div className="font-serif text-4xl text-rose">06</div>
+                    <div className="font-serif text-4xl text-[#c97b63]">06</div>
                     <div className="font-mono text-[10px] tracking-tiny uppercase text-[#8a806d] mt-1">
-                      overdue
+                      Interactions This Month
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* <!-- Dotted rule using tailwind gradient --> */}
-              <div className="my-5 h-px bg-[linear-gradient(to_right,#3a3225_1px,transparent_1px)] [background-size:8px_1px]"></div>
+              <div className="text-[#e8c170] my-5 h-0.5 bg-[linear-gradient(to_right,#3a3225_1px,transparent_1px)] bg-size-[8px_1px]"></div>
 
               {/* <!-- Quote nudge from most overdue --> */}
               <p className="font-serif italic text-[13px] text-[#f3ead9] leading-relaxed">

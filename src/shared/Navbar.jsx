@@ -59,8 +59,8 @@ const Navbar = () => {
 
         {/* <!-- Right: search + add button --> */}
         <div className="flex items-center gap-3">
-          <button className="bg-[#f3ead9] text-black hover:bg-gold-light font-mono text-[11px] tracking-tiny uppercase px-4 py-2 rounded-sm flex items-center gap-2 transition hover:-translate-y-px">
-            <HiPlus /> Add entry
+          <button className="bg-[#f3ead9] text-black hover:bg-[#e8c170] font-mono text-[11px] tracking-tiny uppercase px-4 py-2 rounded-sm flex items-center gap-2 transition hover:-translate-y-px">
+            <HiPlus /> Add Friends
           </button>
         </div>
       </div>
