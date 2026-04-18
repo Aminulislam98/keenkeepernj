@@ -11,7 +11,7 @@ const GoBack = () => {
     <Link
       onClick={() => router.back()}
       href="index.html"
-      className="hover:text-cream transition flex items-center gap-3 "
+      className="hover:text-cream transition flex items-center gap-3 max-w-7xl mx-auto w-full"
     >
       <FaArrowLeft />
       Go back |

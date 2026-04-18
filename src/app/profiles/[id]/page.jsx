@@ -85,30 +85,30 @@ const ProfileDetails = async ({ params }) => {
   };
 
   return (
-    <main className="relative z-10 py-5 md:py-10 px-4">
-      <div className="flex items-center gap-3 font-mono text-[11px] tracking-tiny uppercase text-cream-dim mb-5 md:mb-10 max-w-7xl mx-auto px-2 md:hidden">
+    <main className="z-10 py-5 md:py-10 px-4">
+      <div className="flex items-center gap-3 font-mono text-[11px]  uppercase text-cream-dim mb-5 md:mb-10 max-w-7xl mx-auto  md:hidden">
         <GoBack></GoBack>
         {navigation.map((item) => (
           <Link
             key={item.name}
             href={item.href}
-            className="hover:text-cream transition"
+            className="hover:text-cream transition flex flex-row justify-center items-center"
           >
-            {item.name} |
+            {item.name}
           </Link>
         ))}
       </div>
-      <div className="grid grid-cols-12 gap-10 items-start max-w-7xl w-full mx-auto">
+      <div className=" flex flex-col lg:flex-row gap-10 items-center max-w-7xl w-full mx-auto ">
         {/* <!-- LEFT: portrait + quick action buttons --> */}
-        <div className="col-span-12 lg:col-span-4">
+        <div className="col-span-12 lg:col-span-4 w-full lg:w-1/3">
           {/* Portrait */}
           <div className="aspect-[4/5] rounded-sm relative overflow-hidden border border-line-strong bg-linear-to-br from-[#3a3022] to-ink-900">
             <Image
               src={picture}
               alt="Ryan O'Brien"
               className="absolute inset-0 w-full h-full object-cover"
-              width={200}
-              height={250}
+              width={100}
+              height={100}
             />
             {/* Top corner labels */}
             <div className="absolute top-4 left-4 right-4 flex items-center justify-between font-mono text-[10px] tracking-micro uppercase text-cream"></div>

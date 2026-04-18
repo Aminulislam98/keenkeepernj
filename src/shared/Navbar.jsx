@@ -20,7 +20,7 @@ const Navbar = () => {
   ];
   return (
     <header className="border-b border-line-strong bg-ink-950 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-2 py-5 flex items-center justify-between bg-ink-950 text-cream">
+      <div className="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between bg-ink-950 text-cream">
         {/* <!-- Logo + wordmark --> */}
         <Link href="/" className="flex items-center gap-3">
           <svg width="30" height="30" viewBox="0 0 40 40" fill="none">
