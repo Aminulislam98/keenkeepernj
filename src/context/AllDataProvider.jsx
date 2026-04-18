@@ -1,14 +1,15 @@
 "use client";
 import React, { createContext, useState } from "react";
-export const AllDataContext = createContext();
+export const dataContext = createContext();
 
 const AllDataProvider = ({ children }) => {
   const [callHistory, setCallHistory] = useState([]);
   console.log(callHistory);
-  const data = { callHistory, setCallHistory };
-  return (
-    <AllDataContext.Provider value={data}>{children}</AllDataContext.Provider>
-  );
+  const data = {
+    setCallHistory,
+    callHistory,
+  };
+  return <dataContext.Provider value={data}>{children}</dataContext.Provider>;
 };
 
 export default AllDataProvider;

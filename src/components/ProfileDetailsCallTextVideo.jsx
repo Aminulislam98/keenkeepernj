@@ -1,12 +1,23 @@
+"use client";
+import { dataContext } from "@/context/AllDataProvider";
 import { Mail, MessagesSquare, PhoneCall, Video } from "lucide-react";
-import React from "react";
+import React, { useContext } from "react";
+import { toast } from "react-toastify";
 
-const ProfileDetailsCallTextVideo = () => {
-  const { callHistory, setCallHistory } = useContext(AllDataContext);
+const ProfileDetailsCallTextVideo = ({ newId, name }) => {
+  const { callHistory, setCallHistory } = useContext(dataContext);
+
+  const date = new Date();
+
+  const formattedDate = date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 
   const newCall = () => {
     const newCallDetails = {
-      id: id,
+      id: newId,
       title: "Call",
       name: name,
       date: formattedDate,
@@ -27,7 +38,7 @@ const ProfileDetailsCallTextVideo = () => {
 
   const newText = () => {
     const newTextDetails = {
-      id: id,
+      id: newId,
       title: "Text",
       name: name,
       date: formattedDate,
@@ -46,7 +57,7 @@ const ProfileDetailsCallTextVideo = () => {
   };
   const newVideo = () => {
     const newVideoDetails = {
-      id: id,
+      id: newId,
       title: "Video",
       name: name,
       date: formattedDate,
@@ -65,25 +76,43 @@ const ProfileDetailsCallTextVideo = () => {
   };
   return (
     <div className="grid grid-cols-4 gap-2 mt-4">
-      <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
+      <button
+        onClick={() => {
+          newCall();
+        }}
+        className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition"
+      >
         <span className="font-mono text-[9px] tracking-tiny uppercase flex flex-col gap-1">
           <PhoneCall></PhoneCall>
           Call
         </span>
       </button>
-      <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
+      <button
+        onClick={() => {
+          newText();
+        }}
+        className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition"
+      >
         <MessagesSquare></MessagesSquare>
         <span className="font-mono text-[9px] tracking-tiny uppercase">
           Text
         </span>
       </button>
-      <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
+      <button
+        onClick={() => {
+          newVideo();
+        }}
+        className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition"
+      >
         <Video></Video>
         <span className="font-mono text-[9px] tracking-tiny uppercase">
           Video
         </span>
       </button>
-      <button className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition">
+      <button
+        href={"#"}
+        className="border border-line-strong hover:border-gold text-cream hover:text-gold-light rounded-sm py-3 flex flex-col items-center gap-1.5 transition"
+      >
         <Mail></Mail>
         <span className="font-mono text-[9px] tracking-tiny uppercase">
           Mail

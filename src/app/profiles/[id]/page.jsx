@@ -19,6 +19,7 @@ const ProfileDetails = async ({ params }) => {
     (profile) => profile.id === Number(id),
   );
   const {
+    id: newId,
     name,
     picture,
     days_since_contact,
@@ -81,7 +82,6 @@ const ProfileDetails = async ({ params }) => {
     // Digital — teal (online, distant)
     "online friend": "bg-teal-500/10 text-teal-400 border border-teal-500/30",
   };
-    
 
   return (
     <main className="relative z-10 py-10">
@@ -121,7 +121,11 @@ const ProfileDetails = async ({ params }) => {
 
           {/* Quick action buttons — Call / Text / Video / Mail */}
           <Suspense fallback={<ContactActionSkeleton></ContactActionSkeleton>}>
-            <ProfileDetailsCallTextVideo></ProfileDetailsCallTextVideo>
+            <ProfileDetailsCallTextVideo
+              key={newId}
+              newId={newId}
+              name={name}
+            ></ProfileDetailsCallTextVideo>
           </Suspense>
         </div>
 
